@@ -5542,14 +5542,6 @@ function library:init_window(cfg)
     function window_table:refresh_window()
         window_main.Position = UDim2.new(window_main.Position.X.Scale,window_main.Position.X.Offset,window_main.Position.Y.Scale,window_main.Position.Y.Offset)
     end;
-    --
-    function window_table:fix_zindex()
-        for _,v in next, library.drawings do
-            if v then
-                v.ZIndex += 20
-            end
-        end
-    end
     -- return
     return window_table;
 end;
