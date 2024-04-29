@@ -1,4 +1,3 @@
--- // Pop a band 😊
 local Drawings = {};
 local Thing, Channel = create_comm_channel();
 Channel.Event:Connect(function(Func,ID,Index,Value)
