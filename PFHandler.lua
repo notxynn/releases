@@ -13,7 +13,7 @@ Channel.Event:Connect(function(Func,ID,Index,Value)
         local Type = Drawings[ID];
         if Type then
             local Passed, Statement = pcall(function()
-                Type[Index] = value;
+                Type[Index] = Value;
             end);
         end;
     end;
