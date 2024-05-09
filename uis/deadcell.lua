@@ -1,3 +1,4 @@
+-- old & prob broken
 -- settings (so u dont have to scroll)
 local settings = {
     folder_name = "zephyrus"; -- stupid shit
