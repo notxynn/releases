@@ -1,4 +1,4 @@
--- orignial by Portal#4849
+-- orignial by _notportal | old & broken
 -- modified by someone else idfk who
 -- release due to it getting leaked cuz of demo's retarded ass lol
 -- all the code below is dogshit and is not how i do my uis now 😁
